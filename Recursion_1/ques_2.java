@@ -1,23 +1,27 @@
-// Ques = Print all th natural numbers from 1 to n using recursion
+// Print all the natural numbers from  n to 1 
 package Recursion_1;
 
 import java.util.Scanner;
 
-public class ques_1 {
-    public static void printIncreasing(int n) {
-        if (n == 1) {
+public class ques_2 {
+    public static void printDecreasing(int n)
+    {
+        if(n == 1)
+        {
             System.out.println(n);
             return;
         }
-        printIncreasing(n - 1);
         System.out.println(n);
+        printDecreasing(n-1);
+        
+    }
 
-    }  
-
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        printIncreasing(n);
+        printDecreasing(n);
+        
     }
-
+    
 }
