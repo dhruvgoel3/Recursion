@@ -1,5 +1,5 @@
 // Print all the natural numbers from  n to 1 
-package Recursion_1;
+package Recursion_intro;
 
 import java.util.Scanner;
 

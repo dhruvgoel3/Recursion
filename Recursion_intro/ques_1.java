@@ -1,5 +1,5 @@
 // Ques = Print all th natural numbers from 1 to n using recursion
-package Recursion_1;
+package Recursion_intro;
 
 import java.util.Scanner;
 
